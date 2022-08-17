@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: branding-sf-medium;
+    src: url(./fonts/branding-sf-medium.ttf)
+  }
+
+body {
+    background-color: #3362A9;
+    font-family: branding-sf-medium;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.box {
+    width: 660px;
+    height: 520px;
+    border-radius: 15px;
+    background: #F2F2F2;
+    text-align: center;
+}
+
+.box #logo-ima{
+    margin: 58px;
+}
+
+.box h2{
+    color: #2a2b68;
+    font-size: 2.5rem;
+
+}
+
+.box h5{
+    color: #40403f;
+    font-size: 1rem;
+}
+
+.box h2, h5{
+    padding: 10px;
+}
+
+a{
+
+    text-decoration: none;
+    font-size: 16px;
+    color: #3362a9;
+}
+
+.googleaccount{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0px 0px 15px -8px #000000; 
+    box-shadow: 0px 0px 15px -8px #000000;
+
+    background: #FFFFFF;
+    width: 90%;
+    height: 77px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.googleaccount p{
+    font-size: 2rem;
+    color: #757575;
+}
